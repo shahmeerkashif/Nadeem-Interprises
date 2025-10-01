@@ -1,0 +1,27 @@
+.s {
+    background-color: #f8f8f8; /* Tailwind bg-secondary approx */
+    padding: 4rem 0; /* py-16 */
+    text-align: center;
+  }
+  
+  .s-container {
+    max-width: 1200px; /* container + lg:px-8 */
+    margin: 0 auto;
+    padding: 0 1rem; /* px-4 */
+  }
+  
+  .s-container h2 {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: bold;
+    margin-bottom: 1rem; /* mb-4 */
+    color: #000; /* default text */
+  }
+  
+  .s-container p {
+    font-size: 1.125rem; /* text-lg */
+    color: #6c757d; /* muted foreground approx */
+    max-width: 48rem; /* max-w-3xl */
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  

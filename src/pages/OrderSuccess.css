@@ -1,0 +1,61 @@
+/* Container styling */
+.order-success-container {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Check icon */
+  .success-icon {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+    animation: bounce 1.5s infinite;
+  }
+  
+  /* Title text */
+  .success-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Message text */
+  .success-message {
+    font-size: 16px;
+    color: #ccc;
+    max-width: 400px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  /* Button */
+  .success-btn {
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .success-btn:hover {
+    background-color: #e5e5e5;
+  }
+  
+  /* Bounce animation */
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  
